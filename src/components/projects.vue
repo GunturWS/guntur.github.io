@@ -15,7 +15,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="mb-2 font-black text-2xl">projects/</div>
+  <div class="mb-2 font-black text-2xl">projects// COMING SOON</div>
   <div class="grid md:grid-cols-2 gap-2">
     <div v-if="!repos.length">projects could not be retrieved.</div>
     <a
