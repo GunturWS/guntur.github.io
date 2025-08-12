@@ -1,0 +1,54 @@
+[
+  {
+    "name": "GunturWS.github.io",
+    "description": "Personal portfolio website built with Vite, Vue, and TailwindCSS.",
+    "html_url": "https://github.com/GunturWS/lareii.github.io",
+    "stargazers_count": 999,
+    "forks_count": 2,
+    "archived": false,
+    "owner": {
+      "login": "GunturWS",
+      "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
+    },
+    "image": "./images/porto.jpg"
+  },
+  {
+    "name": "Kebun Raya Balikpapan. TA",
+    "description": "Frontend for Kebun Raya Balikpapan with automated plant classification, built with React, TailwindCSS, and Redux.",
+    "html_url": "https://github.com/GunturWS/KRB-Frontend",
+    "stargazers_count": 969,
+    "forks_count": 1,
+    "archived": false,
+    "owner": {
+      "login": "GunturWS",
+      "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
+    },
+    "image": "./images/frontend-KRB.png"
+  },
+  {
+    "name": "FdF",
+    "description": "3D wireframe rendering project using C.",
+    "html_url": "https://github.com/GunturWS/FdF",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "archived": false,
+    "owner": {
+      "login": "GunturWS",
+      "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
+    },
+    "image": "./images/porto.jpg"
+  },
+  {
+    "name": "cub3D",
+    "description": "3D game engine project with raycasting.",
+    "html_url": "https://github.com/GunturWS/cub3D",
+    "stargazers_count": 8,
+    "forks_count": 1,
+    "archived": false,
+    "owner": {
+      "login": "GunturWS",
+      "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
+    },
+    "image": "./images/porto.jpg"
+  }
+]
