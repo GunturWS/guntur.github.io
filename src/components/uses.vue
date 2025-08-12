@@ -2,7 +2,6 @@
   <div>
     <!-- Judul -->
     <div class="mb-6 font-black text-2xl">uses/</div>
-
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <!-- Design Tools -->
       <div>
