@@ -1,9 +1,9 @@
 <script setup>
-import Header from "./components/Header.vue";
-import Uses from "./components/Uses.vue";
-import Projects from "./components/Projects.vue";
-import Footer from "./components/Footer.vue";
-import Contact from "./components/Contact.vue";
+import Header from "./components/header.vue";
+import Uses from "./components/uses.vue";
+import Projects from "./components/projects.vue";
+import Footer from "./components/footer.vue";
+import Contact from "./components/contact.vue";
 </script>
 
 <template>
