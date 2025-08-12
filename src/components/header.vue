@@ -22,7 +22,7 @@ const documents = [
   },
   {
     name: "CV Guntur (ID)",
-    path: "/pdf/CV_Guntur Wisnu Saputra_id.pdf",
+    path: "/pdf/CV_Guntur Wisnu Saputra_in.pdf",
     icon: ["fas", "file-pdf"],
   },
 ];
