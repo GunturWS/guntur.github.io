@@ -41,7 +41,7 @@ onMounted(async () => {
             v-if="repo.image"
             :src="repo.image"
             alt="Project Image"
-            class="rounded-lg w-full h-48 object-cover mt-2"
+            class="rounded-lg w-full h-[270px] object-cover mt-2"
           />
         </div>
       </div>

@@ -16,6 +16,17 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faGithub, faLinkedin, faDiscord, faSpotify, faMastodon, faStar, faCodeBranch, faCode, faFigma, faInstagram);
+library.add(
+  faGithub,
+  faLinkedin,
+  faDiscord,
+  faSpotify,
+  faMastodon,
+  faStar,
+  faCodeBranch,
+  faCode,
+  faFigma,
+  faInstagram
+);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
