@@ -1,7 +1,7 @@
 [
   {
     "name": "GunturWS.github.io",
-    "description": "Personal portfolio website built with Vite, Vue, and TailwindCSS. portfolio ini sudah responsive dan dapat diakses di berbagai perangkat.",
+    "description": "Personal portfolio website built with Vite, Vue, and TailwindCSS...",
     "html_url": "https://guntur-github-io.vercel.app/",
     "stargazers_count": 999,
     "forks_count": 2,
@@ -10,11 +10,11 @@
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
     },
-    "image": "./images/image1.png"
+    "image": "/images/image1.png"
   },
   {
     "name": "Kebun Raya Balikpapan. TA",
-    "description": "Frontend for Kebun Raya Balikpapan with automated plant classification, built with React, TailwindCSS, and Redux.",
+    "description": "Frontend for Kebun Raya Balikpapan with automated plant classification...",
     "html_url": "https://github.com/GunturWS/KRB-Frontend",
     "stargazers_count": 969,
     "forks_count": 1,
@@ -23,11 +23,11 @@
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
     },
-    "image": "./images/image2.png"
+    "image": "/images/image2.png"
   },
   {
     "name": "TaStore",
-    "description": "TaStrore merupakan aplikasi e-commerce yang dibagung dengan menggunakan flutter, dart, dan firebase. dimaan aplikasi ini berbasis pada mobile.",
+    "description": "TaStrore merupakan aplikasi e-commerce ...",
     "html_url": "https://github.com/GunturWS/Flutter-e-commerce-TaStore",
     "stargazers_count": 3,
     "forks_count": 0,
@@ -35,8 +35,8 @@
     "owner": {
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
-    },  
-    "image": "./images/image3.png"
+    },
+    "image": "/images/image3.png"
   },
   {
     "name": "coming soon",
@@ -49,6 +49,6 @@
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
     },
-    "image": "./images/porto.jpg"
+    "image": "/images/porto.jpg"
   }
 ]
