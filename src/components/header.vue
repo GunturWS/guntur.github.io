@@ -82,10 +82,8 @@ onUnmounted(() => ws.value?.close());
     GunturWS<span :class="['text-2xl', status]">.github.io</span>
   </div>
   <div>
-    Guntur Wisnu Saputra as UI/UX Designer | Frontend developer,
-    <a href="https://www.youtube.com/watch?v=9sJUDx7iEJw" target="_blank" class="underline"
-      >free software</a
-    >
+    Guntur Wisnu Saputra as Frontend developer | UI/UX Designer ,
+    <a target="_blank" class="underline">free software</a>
     enthusiast. programming, music, and game.
   </div>
   <div class="flex items-center gap-2 text-sm text-nova-gray">

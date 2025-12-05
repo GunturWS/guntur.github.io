@@ -1,7 +1,8 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, computed } from "vue";
 
 const repos = ref([]);
+const showAll = ref(false);
 
 onMounted(async () => {
   try {
@@ -12,14 +13,21 @@ onMounted(async () => {
     console.error("Error fetching projects:", error);
   }
 });
+
+// tampilkan 4 dulu
+const displayedRepos = computed(() => {
+  return showAll.value ? repos.value : repos.value.slice(0, 4);
+});
 </script>
 
 <template>
-  <div class="mb-2 font-black text-2xl">projects// COMING SOON</div>
+  <div class="mb-2 font-black text-2xl">projects//</div>
   <div class="grid md:grid-cols-2 gap-2">
     <div v-if="!repos.length">projects could not be retrieved.</div>
+
+    <!-- gunakan displayedRepos -->
     <a
-      v-for="repo in repos"
+      v-for="repo in displayedRepos"
       :key="repo.name"
       :href="repo.html_url"
       target="_blank"
@@ -30,15 +38,15 @@ onMounted(async () => {
           <img :src="repo.owner.avatar_Github" class="rounded-full w-4" />
           {{ repo.owner.login }}
         </div>
+
         <div :class="['font-bold', 'text-lg', repo.archived ? 'line-through' : '']">
           {{ repo.name }}
         </div>
-        <div>{{ repo.description }}</div>
 
-        <!-- Gambar project -->
+        <div class="line-clamp-2">{{ repo.description }}</div>
+
         <div v-if="repo.image" class="mt-2">
           <img
-            v-if="repo.image"
             :src="repo.image"
             alt="Project Image"
             class="rounded-lg w-full h-[270px] object-cover mt-2"
@@ -57,5 +65,15 @@ onMounted(async () => {
         </div>
       </div>
     </a>
+  </div>
+
+  <!-- tombol selengkapnya -->
+  <div class="mt-4 text-center" v-if="repos.length > 4 && !showAll">
+    <button
+      @click="showAll = true"
+      class="px-4 py-2 bg-[#202020]/40 border border-[#504945] rounded-md hover:bg-[#202020]/60 transition"
+    >
+      Lihat selengkapnya
+    </button>
   </div>
 </template>
