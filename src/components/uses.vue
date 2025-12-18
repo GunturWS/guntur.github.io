@@ -17,7 +17,7 @@
       <div>
         <h2 class="font-semibold text-lg mb-2">💻 Frontend & 📱 Mobile Development</h2>
         <img
-          src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,react,redux,dart,flutter"
+          src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,react,vue,redux,dart,flutter"
           alt="Frontend & Mobile Tools"
           class="select-none"
         />

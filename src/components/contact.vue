@@ -51,7 +51,7 @@ const contacts = ref([
   },
   {
     title: "Instagram",
-    description: "@gntrwsnu",
+    description: "@gntrwsnu_",
     action: () => window.open("https://www.instagram.com/gntrwsnu_/", "_blank"),
   },
   {
@@ -131,7 +131,11 @@ const contacts = ref([
             required
           ></textarea>
 
-          <button class="max-w-[160px] uppercase mt-2 self-start" type="submit" :disabled="loading">
+          <button
+            class="max-w-[160px] uppercase mt-2 self-start rounded border-[#504945] border focus:outline-none focus:ring-2 focus:ring-blue-500 px-4 py-2 hover:bg-blue-600 hover:border-blue-600 transition"
+            type="submit"
+            :disabled="loading"
+          >
             {{ loading ? "Sending..." : "Send Email" }}
           </button>
 

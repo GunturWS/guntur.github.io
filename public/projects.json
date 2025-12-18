@@ -55,7 +55,7 @@
     "name": "Ekonomi Kreatif Bontang",
     "description": "Ekraf Bontang Merupakan website yang berisi tentang informasi mengenai ekonomi kreatif yang ada di kota bontang. Website ini dibuat untuk membantu UMKM yang ada di kota bontang agar lebih dikenal oleh masyarakat luas dan website ini berisi berbagai informasi mengenai kegiatan ekonomi kreatif yang ada di kota bontang.",
     "html_url": "https://github.com/GunturWS/Ekraf-Frontend",
-    "stargazers_count": 4,
+    "stargazers_count": 10,
     "forks_count": 0,
     "archived": false,
     "owner": {
@@ -65,10 +65,10 @@
     "image": "/images/image5.png"
   },
   {
-    "name": "coming soon",
-    "description": "coming soon",
-    "html_url": "https://github.com/GunturWS/FdF",
-    "stargazers_count": 3,
+    "name": "Todo & Notes App",
+    "description": "Aplikasi sederhana untuk mengelola todo dan catatan harian dengan fitur penyimpanan lokal menggunakan Laravel.",
+    "html_url": "https://todo-laravel-production.up.railway.app/",
+    "stargazers_count": 6,
     "forks_count": 0,
     "archived": false,
     "owner": {
