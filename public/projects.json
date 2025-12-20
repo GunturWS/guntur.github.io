@@ -41,21 +41,21 @@
   {
     "name": "Pedjuang ilmu",
     "description": "Merupakan website yang bergerak di bidang pendidikan. Website ini menyediakan banyak course mulai dari course untuk pemula hingga expert.",
-    "html_url": "https://github.com/GunturWS/FdF",
-    "stargazers_count": 3,
+    "html_url": "https://github.com/GunturWS/b17-final-project",
+    "stargazers_count": 89,
     "forks_count": 0,
     "archived": false,
     "owner": {
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
     },
-    "image": "/images/porto.jpg"
+    "image": "/images/course.png"
   },
   {
     "name": "Ekonomi Kreatif Bontang",
     "description": "Ekraf Bontang Merupakan website yang berisi tentang informasi mengenai ekonomi kreatif yang ada di kota bontang. Website ini dibuat untuk membantu UMKM yang ada di kota bontang agar lebih dikenal oleh masyarakat luas dan website ini berisi berbagai informasi mengenai kegiatan ekonomi kreatif yang ada di kota bontang.",
     "html_url": "https://github.com/GunturWS/Ekraf-Frontend",
-    "stargazers_count": 10,
+    "stargazers_count": 79,
     "forks_count": 0,
     "archived": false,
     "owner": {
@@ -75,6 +75,6 @@
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
     },
-    "image": "/images/porto.jpg"
+    "image": "/images/todo.png"
   }
 ]
