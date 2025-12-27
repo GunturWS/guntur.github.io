@@ -174,50 +174,49 @@ onMounted(() => {
           <h3 class="text-xl font-semibold mb-3">Description</h3>
           <p class="text-gray-300 leading-relaxed">{{ selectedRepo.description }}</p>
         </div>
-        
-        </div> -->
-        <div class="mb-6">
-          <h3 class="text-xl font-semibold mb-3">Tech Stack</h3>
-          <p class="text-gray-300 leading-relaxed">{{ selectedRepo.tech_stack }}</p>
-        </div>
-         <!-- <div class="mb-6">
+      </div>
+      -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-3">Tech Stack</h3>
+        <p class="text-gray-300 leading-relaxed">{{ selectedRepo.tech_stack }}</p>
+      </div>
+      <!-- <div class="mb-6">
           <h3 class="text-xl font-semibold mb-3">Tech Stack</h3>
           <p class="text-gray-300 leading-relaxed">{{ selectedRepo.features }}</p>
         </div> -->
 
-        <!-- Stats -->
-        <div class="flex gap-6 mb-6">
-          <div class="flex items-center gap-2">
-            <font-awesome-icon :icon="['fas', 'star']" class="text-yellow-400" />
-            <span class="font-semibold">{{ selectedRepo.stargazers_count }} Stars</span>
-          </div>
-          <div class="flex items-center gap-2">
-            <font-awesome-icon :icon="['fas', 'code-branch']" class="text-blue-400" />
-            <span class="font-semibold">{{ selectedRepo.forks_count }} Forks</span>
-          </div>
-          <div v-if="selectedRepo.archived" class="flex items-center gap-2">
-            <font-awesome-icon :icon="['fas', 'archive']" class="text-red-400" />
-            <span class="font-semibold">Archived</span>
-          </div>
+      <!-- Stats -->
+      <div class="flex gap-6 mb-6">
+        <div class="flex items-center gap-2">
+          <font-awesome-icon :icon="['fas', 'star']" class="text-yellow-400" />
+          <span class="font-semibold">{{ selectedRepo.stargazers_count }} Stars</span>
         </div>
+        <div class="flex items-center gap-2">
+          <font-awesome-icon :icon="['fas', 'code-branch']" class="text-blue-400" />
+          <span class="font-semibold">{{ selectedRepo.forks_count }} Forks</span>
+        </div>
+        <div v-if="selectedRepo.archived" class="flex items-center gap-2">
+          <font-awesome-icon :icon="['fas', 'archive']" class="text-red-400" />
+          <span class="font-semibold">Archived</span>
+        </div>
+      </div>
 
-        <!-- Tombol aksi -->
-        <div class="flex gap-4">
-          <a
-            :href="selectedRepo.html_url"
-            target="_blank"
-            class="flex-1 py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white text-center rounded-lg transition-colors font-semibold"
-          >
-            <font-awesome-icon :icon="['fas', 'external-link-alt']" class="mr-2" />
-            View Project
-          </a>
-          <button
-            @click="closeModal"
-            class="flex-1 py-3 px-4 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors font-semibold"
-          >
-            Close
-          </button>
-        </div>
+      <!-- Tombol aksi -->
+      <div class="flex gap-4">
+        <a
+          :href="selectedRepo.html_url"
+          target="_blank"
+          class="flex-1 py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white text-center rounded-lg transition-colors font-semibold"
+        >
+          <font-awesome-icon :icon="['fas', 'external-link-alt']" class="mr-2" />
+          View Project
+        </a>
+        <button
+          @click="closeModal"
+          class="flex-1 py-3 px-4 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors font-semibold"
+        >
+          Close
+        </button>
       </div>
     </div>
   </div>
