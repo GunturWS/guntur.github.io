@@ -1,11 +1,18 @@
 [
   {
     "name": "GunturWS.github.io",
-    "description": "Personal portfolio website built with Vite, Vue, and TailwindCSS...",
+    "description": "Personal portfolio website built with Vite, Vue 3, and TailwindCSS. Displays projects, skills, and experience in an interactive and responsive manner.",
     "html_url": "https://guntur-github-io.vercel.app/",
     "stargazers_count": 999,
     "forks_count": 2,
     "archived": false,
+    "tech_stack": ["Vue 3", "Vite", "TailwindCSS", "JavaScript"],
+    "features": [
+      "Dark/Light mode toggle",
+      "Responsive design",
+      "Project showcase dengan filter",
+      "Animasi interaktif"
+    ],
     "owner": {
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
@@ -14,11 +21,28 @@
   },
   {
     "name": "Kebun Raya Balikpapan. TA",
-    "description": "Frontend for Kebun Raya Balikpapan with automated plant classification...",
+    "description": "Kebun Raya Balikpapan adalah sebuah website yang menampilkan informasi mengenai berbagai jenis tanaman yang ada di Kebun Raya Balikpapan. Website ini juga menyediakan fitur pencarian tanaman berdasarkan nama ilmiah atau nama umum tanaman.",
     "html_url": "https://github.com/GunturWS/KRB-Frontend",
-    "stargazers_count": 969,
+    "stargazers_count": 888,
     "forks_count": 1,
     "archived": false,
+    "tech_stack": [
+      "React",
+      "TailwindCSS",
+      "Vite",
+      "Python",
+      "Flask REST API",
+      "Express.js",
+      "PostgreSQL",
+      "TensorFlow",
+      "ResNet50 Model"
+    ],
+    "features": [
+      "Dark/Light mode toggle",
+      "Responsive design",
+      "Project showcase dengan filter",
+      "Animasi interaktif"
+    ],
     "owner": {
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
@@ -27,11 +51,25 @@
   },
   {
     "name": "TaStore",
-    "description": "TaStrore merupakan aplikasi e-commerce dimana pengguna dapat melakukan pembelian laptop secaran online. atau melakukan booking secara online",
+    "description": "TaStrore merupakan aplikasi e-commerce berbasis Mobile, dimana pengguna dapat melakukan pembelian laptop secaran online. atau melakukan booking secara online ",
     "html_url": "https://github.com/GunturWS/Flutter-e-commerce-TaStore",
-    "stargazers_count": 77,
+    "stargazers_count": 555,
     "forks_count": 0,
     "archived": false,
+    "tech_stack": [
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "REST API",
+      "State Management",
+      "Payment Gateway"
+    ],
+    "features": [
+      "Dark/Light mode toggle",
+      "Responsive design",
+      "Project showcase dengan filter",
+      "Animasi interaktif"
+    ],
     "owner": {
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
@@ -42,9 +80,24 @@
     "name": "Pedjuang ilmu",
     "description": "Merupakan website yang bergerak di bidang pendidikan. Website ini menyediakan banyak course mulai dari course untuk pemula hingga expert.",
     "html_url": "https://github.com/GunturWS/b17-final-project",
-    "stargazers_count": 89,
+    "stargazers_count": 777,
     "forks_count": 0,
     "archived": false,
+    "tech_stack": [
+      "Vite",
+      "React",
+      "TailwindCSS",
+      "Express.js",
+      "PostgreSQL",
+      "Node.js",
+      "REST API"
+    ],
+    "features": [
+      "Dark/Light mode toggle",
+      "Responsive design",
+      "Project showcase dengan filter",
+      "Animasi interaktif"
+    ],
     "owner": {
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
@@ -55,9 +108,16 @@
     "name": "Ekonomi Kreatif Bontang",
     "description": "Ekraf Bontang Merupakan website yang berisi tentang informasi mengenai ekonomi kreatif yang ada di kota bontang. Website ini dibuat untuk membantu UMKM yang ada di kota bontang agar lebih dikenal oleh masyarakat luas dan website ini berisi berbagai informasi mengenai kegiatan ekonomi kreatif yang ada di kota bontang.",
     "html_url": "https://github.com/GunturWS/Ekraf-Frontend",
-    "stargazers_count": 79,
+    "stargazers_count": 666,
     "forks_count": 0,
     "archived": false,
+    "tech_stack": ["Vite", "React", "TailwindCSS", "Laravel", "MySQL", "REST API"],
+    "features": [
+      "Dark/Light mode toggle",
+      "Responsive design",
+      "Project showcase dengan filter",
+      "Animasi interaktif"
+    ],
     "owner": {
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
@@ -68,13 +128,40 @@
     "name": "Todo & Notes App",
     "description": "Aplikasi sederhana untuk mengelola todo dan catatan harian dengan fitur penyimpanan lokal menggunakan Laravel.",
     "html_url": "https://todo-laravel-production.up.railway.app/",
-    "stargazers_count": 6,
+    "stargazers_count": 444,
     "forks_count": 0,
     "archived": false,
+    "tech_stack": ["Laravel", "Blade Template", "PHP", "MySQL", "JavaScript"],
+    "features": [
+      "Dark/Light mode toggle",
+      "Responsive design",
+      "Project showcase dengan filter",
+      "Animasi interaktif"
+    ],
     "owner": {
       "login": "GunturWS",
       "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
     },
     "image": "/images/todo.png"
+  },
+  {
+    "name": "WowTube",
+    "description": "WowTube apliaksi berbasis web yang meniru fitur dasar dari YouTube, seperti menonton video, mencari video, dan mengelola playlist. Aplikasi ini dibangun menggunakan Laravel sebagai backend dan Blade Template untuk tampilan frontend.",
+    "html_url": "https://github.com/GunturWS/youtube-clone",
+    "stargazers_count": 333,
+    "forks_count": 0,
+    "archived": false,
+    "tech_stack": ["Laravel", "Blade Template", "PHP", "MySQL", "TailwindCSS", "JavaScript"],
+    "features": [
+      "Dark/Light mode toggle",
+      "Responsive design",
+      "Project showcase dengan filter",
+      "Animasi interaktif"
+    ],
+    "owner": {
+      "login": "GunturWS",
+      "avatar_Github": "https://avatars.githubusercontent.com/u/0000000?v=4"
+    },
+    "image": "/images/wowtube.png"
   }
 ]
