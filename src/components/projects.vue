@@ -174,9 +174,7 @@ onMounted(() => {
           <h3 class="text-xl font-semibold mb-3">Description</h3>
           <p class="text-gray-300 leading-relaxed">{{ selectedRepo.description }}</p>
         </div>
-        <!-- <div class="mb-6">
-          <h3 class="text-xl font-semibold mb-3">Full Description</h3>
-          <p class="text-gray-300 leading-relaxed">{{ selectedRepo.full_description }}</p>
+        
         </div> -->
         <div class="mb-6">
           <h3 class="text-xl font-semibold mb-3">Tech Stack</h3>
